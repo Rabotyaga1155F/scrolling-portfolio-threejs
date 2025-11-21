@@ -18,7 +18,7 @@ export function Office(props) {
   useFrame(() => {
     tl.current.seek(scroll.offset * tl.current.duration());
   });
-
+//dsadasda
   useLayoutEffect(() => {
     tl.current = gsap.timeline();
 
